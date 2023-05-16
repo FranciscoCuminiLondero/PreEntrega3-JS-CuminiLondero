@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFMarketing</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Nuestros servicios de marketing</h1>
+        <div class="card-container">
+
+            <div class="card">
+                <h2>Desarrollo web</h2>
+                <p>Ofrecemos servicios de desarrollo web de alta calidad para empresas de cualquier tamaño.</p>
+                <p>Precio: $5000 ARS</p>
+                <button class="add-product" data-index="0">Agregar</button>
+            </div>
+            <div class="card">
+                <h2>Diseño gráfico</h2>
+                <p>Nuestros diseñadores gráficos están a tu disposición para crear cualquier tipo de material visual que
+                    necesites.</p>
+                <p>Precio: $3500 ARS</p>
+                <button class="add-product" data-index="1">Agregar</button>
+            </div>
+            <div class="card">
+                <h2>Optimización SEO</h2>
+                <p>Mejora la visibilidad de tu sitio web en los resultados de búsqueda con nuestros servicios de
+                    optimización SEO.</p>
+                <p>Precio: $2500 ARS</p>
+                <button class="add-product" data-index="2">Agregar</button>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Gestión de redes sociales</h2>
+                <p>Deja que nuestros expertos en redes sociales se encarguen de tu presencia en línea y aumenten tu
+                    alcance
+                    y engagement.</p>
+                <p>Precio: $2000 ARS</p>
+                <button class="add-product" data-index="3">Agregar</button>
+            </div>
+            <div class="card">
+                <h2>Redacción de contenidos</h2>
+                <p>Si necesitas contenido para tu sitio web o blog, nuestro equipo de redactores puede crear textos de
+                    alta
+                    calidad en cualquier tema.</p>
+                <p>Precio: $1500 ARS</p>
+                <button class="add-product" data-index="4">Agregar</button>
+            </div>
+
+            <div class="card">
+                <h2>Publicidad en línea</h2>
+                <p>Mejora la visibilidad de tu empresa con publicidad en línea en plataformas como Google y Facebook.
+                </p>
+                <p>Precio: $4000 ARS</p>
+                <button class="add-product" data-index="5">Agregar</button>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Fotografía y video</h2>
+                <p>Crea contenido visual de alta calidad para tu empresa con nuestros servicios de fotografía y video.
+                </p>
+                <p>Precio: $3000 ARS</p>
+                <button class="add-product" data-index="6">Agregar</button>
+            </div>
+            <div class="card">
+                <h2>Marketing de influencers</h2>
+                <p>Conecta con tu público objetivo a través de influencers relevantes para tu marca y aumenta tu alcance
+                    en
+                    las redes sociales.</p>
+                <p>Precio: $4500 ARS</p>
+                <button class="add-product" data-index="7">Agregar</button>
+
+            </div>
+            <div class="card">
+                <h2>Email marketing</h2>
+                <p>Llega a tu audiencia directamente en su bandeja de entrada con nuestros servicios de email marketing.
+                </p>
+                <p>Precio: $3000 ARS</p>
+                <button class="add-product" data-index="8">Agregar</button>
+            </div>
+
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Gestión de reputación en línea</h2>
+                <p>Estrategias y técnicas para mejorar la percepción de una marca, persona o
+                    empresa en redes sociales, minimizando efectos negativos de críticas o
+                    comentarios desfavorables.</p>
+                <p>Precio: $4000 ARS</p>
+                <button class="add-product" data-index="9">Agregar</button>
+            </div>
+
+        </div>
+    </main>
+
+    <section>
+        <div class="cart">
+            <h2>Carrito de compras</h2>
+            <div class="products">
+                <ul id="product-list"></ul>
+                <p id="total">No hay productos</p>
+            </div>
+            <button class="checkout" style="display: none;">Finalizar Compra</button>
+            <div id="form-container" style="display: none;">
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                    <br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required>
+                    <br>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <br>
+                    <button id="enviar">Enviar</button>
+                </form>
+            </div>
+            <div id="mensaje" style="display: none;"></div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>

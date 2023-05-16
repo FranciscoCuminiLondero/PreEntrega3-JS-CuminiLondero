@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Desarrollo web",
+        "precio": 5000
+    },
+    {
+        "nombre": "Diseño gráfico",
+        "precio": 3500
+    },
+    {
+        "nombre": "Optimización SEO",
+        "precio": 2500
+    },
+    {
+        "nombre": "Gestion de redes sociales",
+        "precio": 2000
+    },
+    {
+        "nombre": "Redacción de contenido",
+        "precio": 1500
+    },
+    {
+        "nombre": "Publicidad en línea",
+        "precio": 4000
+    },
+    {
+        "nombre": "Fotografía y video",
+        "precio": 3000
+    },
+    {
+        "nombre": "Marketing de influencers",
+        "precio": 4500
+    },
+    {
+        "nombre": "Email marketing",
+        "precio": 3000
+    },
+    {
+        "nombre": "Gestion de reputación",
+        "precio": 4000
+    }
+]
